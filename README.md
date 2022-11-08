@@ -32,6 +32,18 @@
 $ npm install
 ```
 
+## Setup local .env on your system
+### example .env file
+```
+DATABASE_TYPE=mysql
+DATABASE_NAME=bankingdb
+DATABASE_USERNAME=root
+DATABASE_PASSWORD=
+DATABASE_HOST=localhost
+DATABASE_PORT=3306
+```
+
+
 ## Running the app
 
 ```bash
@@ -45,17 +57,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Test using SwaggerUi
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# swagger link to test the api
+http://localhost:3001/UserAccountApp/api
 ```
 
 ## Support
